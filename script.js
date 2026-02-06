@@ -80,10 +80,31 @@ const observer = new IntersectionObserver(entries => {
 }, observerOptions);
 
 // Observe project cards and skill cards
-document.querySelectorAll('.project-card, .skill-card, .timeline-item, .social-card').forEach(el => {
+document.querySelectorAll('.project-card, .skill-card, .timeline-item, .connect-card').forEach(el => {
     el.style.opacity = '0';
     observer.observe(el);
 });
+
+// Email copy functionality
+const copyEmailBtn = document.getElementById('copyEmail');
+if (copyEmailBtn) {
+    copyEmailBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const email = 'eth.sarthi@gmail.com';
+        navigator.clipboard.writeText(email).then(() => {
+            const originalText = copyEmailBtn.textContent;
+            copyEmailBtn.textContent = '✓ Copied!';
+            copyEmailBtn.style.backgroundColor = 'rgba(94, 247, 184, 0.2)';
+            setTimeout(() => {
+                copyEmailBtn.textContent = originalText;
+                copyEmailBtn.style.backgroundColor = '';
+            }, 2000);
+        }).catch(err => {
+            console.error('Failed to copy:', err);
+            alert('Unable to copy. You can manually copy: eth.sarthi@gmail.com');
+        });
+    });
+}
 
 // Mobile menu enhancement (if needed in future)
 console.log('ZoroAI Portfolio loaded successfully! 🚀');
