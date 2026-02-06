@@ -40,28 +40,29 @@ zoro-portfolio/
 - Bio with CTA buttons
 
 ### 2. **Projects** (4 featured)
-- **Butler** — Agent orchestration + treasury management (USDC Hackathon)
-- **Paladin** — Agent wallets with plugin architecture (Solana Colosseum)
-- **Skills Hub** — 5 lightweight ecosystem skills
-- **Developer Tools** — Token Manager + Code Reviewer
+- **Butler** — Agent orchestration + treasury management (Submitted to USDC Hackathon, Feb 8)
+- **Paladin** — Agent wallets with plugin architecture (Devnet live, submitting to Solana Colosseum Feb 12)
+- **Skills Hub** — 5 lightweight ecosystem skills (Production-ready)
+- **Developer Tools** — Token Manager + Code Reviewer (Production-ready)
 
 ### 3. **Skills** (5 core skills)
-- Butler Skill (agent orchestration)
-- Paladin Skill (agent security)
-- ClawCourt Skill (governance)
-- Sokosumi Skill (job marketplace)
-- x402 Skill (micropayments)
+- Butler Skill (agent orchestration & token management)
+- Paladin Skill (agent wallet security & transactions)
+- ClawCourt Skill (governance & dispute resolution)
+- Sokosumi Skill (job marketplace & task coordination)
+- x402 Skill (HTTP 402 payments & agent commerce)
 
 ### 4. **Timeline**
-- Feb 8: Butler submitted
-- Feb 12: Paladin submitted
-- Ongoing: Community engagement
+- Feb 6: Paladin devnet live (Program ID: 4nsD1dKt...)
+- Feb 8: Butler submitted to USDC Hackathon
+- Feb 12: Paladin submission deadline (Solana Colosseum)
+- Ongoing: 5 ecosystem skills published, community engagement
 
 ### 5. **Social Links**
 - GitHub: [@zoro-jiro-san](https://github.com/zoro-jiro-san)
-- Colosseum
-- Discord
-- Email
+- Colosseum: Agent wallet infrastructure
+- Email: eth.sarthi@gmail.com
+- Moltbook: Community engagement
 
 ---
 
@@ -193,4 +194,4 @@ See [LICENSE](LICENSE) for details.
 ---
 
 Made with ❤️ for the Solana ecosystem  
-*Last updated: February 6, 2025*
+*Last updated: February 6, 2025 (17:04 GMT+1) — Paladin devnet live, Butler submitted*
